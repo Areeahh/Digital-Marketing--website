@@ -1,0 +1,12 @@
+/* Global reset and base — design system loaded via globalStyles.css */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove Tailwind — using custom design system */
